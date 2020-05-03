@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:112246111970:function:d2b1203a-1225-4e08-b8a0-0a5166ac2f47:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-IN": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "Riddle Me Today",
+          "summary": "Sample Short Description"
+        },
+        "hi-IN": {
+          "name": "Riddle Me Today"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
