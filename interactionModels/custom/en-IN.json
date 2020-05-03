@@ -1,0 +1,83 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bts quiz",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "QuestionIntent",
+          "slots": [],
+          "samples": [
+            "question me today",
+            "todays question",
+            "question for today",
+            "give me question",
+            "tell me a question"
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "QuestionAnswers"
+            }
+          ],
+          "samples": [
+            "{answer}",
+            "answer is {answer}",
+            "maybe {answer}",
+            "is it {answer}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "suga"
+              }
+            },
+            {
+              "name": {
+                "value": "Jungkook"
+              }
+            },
+            {
+              "name": {
+                "value": "Jin"
+              }
+            },
+            {
+              "name": {
+                "value": "Rm"
+              }
+            }
+          ],
+          "name": "QuestionAnswers"
+        }
+      ]
+    }
+  },
+  "version": "12"
+}
